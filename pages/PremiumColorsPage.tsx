@@ -103,7 +103,7 @@ const PremiumColorsPage: React.FC = () => {
                 </h2>
                 <div className="grid lg:grid-cols-2 gap-12 items-center mt-12">
                   <div>
-                      <InlineImage src="https://i.postimg.cc/3wMHyP1x/premium-colors-lifestyle.jpg" alt={t('premiumColorsPage.benefitsTitle')} aspectRatio="1/1" />
+                      <InlineImage src="https://i.postimg.cc/kMssGWg4/decorative-bedding-005.jpg" alt={t('premiumColorsPage.benefitsTitle')} aspectRatio="1/1" />
                   </div>
                   <ul className="space-y-6 text-neutral-800 text-lg">
                     {benefits.map(benefit => (

@@ -1,7 +1,5 @@
 
 
-
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -129,7 +127,7 @@ export default function WhatIsTencelPage() {
                             {t('whatIsTencelPage.care.title')}
                             </h2>
                             <p className="text-neutral-700 text-base mb-6">{t('whatIsTencelPage.care.intro')}</p>
-                            <InlineImage src="https://i.postimg.cc/d1TqgN6D/laundry-care.jpg" alt={t('whatIsTencelPage.care.title')} aspectRatio='16/9' />
+                            <InlineImage src="https://i.postimg.cc/T3FCGGYJ/decorative-bedding-0012.jpg" alt={t('whatIsTencelPage.care.title')} aspectRatio='16/9' />
                             <ul className="list-decimal list-outside space-y-3 text-neutral-700 text-base ps-5 mt-6">
                                 {careItems.map(itemKey => (
                                     <li key={itemKey}>{t(itemKey)}</li>

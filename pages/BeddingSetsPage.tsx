@@ -92,7 +92,7 @@ export default function BeddingSetsPage() {
                       </h2>
                       <div className="grid md:grid-cols-2 gap-12 items-center">
                           <div>
-                            <InlineImage src="https://i.postimg.cc/t47j38x8/bedding-set-lifestyle.jpg" alt={t('beddingSetsPage.benefitsTitle')} aspectRatio="1/1" />
+                            <InlineImage src="https://i.postimg.cc/8zJmZ3BJ/decorative-bedding-001.jpg" alt={t('beddingSetsPage.benefitsTitle')} aspectRatio="1/1" />
                           </div>
                           <div>
                             <h3 className="text-2xl font-semibold text-brand-dark mb-6">{t('beddingSetsPage.componentsTitle')}</h3>
