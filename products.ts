@@ -1,5 +1,4 @@
 
-
 import type { Product, LocalizedString } from './data/galleryData';
 
 // --- IMAGE ASSETS ---
@@ -46,7 +45,7 @@ const towelPriceDescriptions: Record<number, LocalizedString> = {
         en: `For <strong>{price} Baht per dozen</strong>, these 14 lbs towels deliver a premium feel that often comes at a much steeper cost, offering an elevated experience without the elevated price tag.`,
         th: `ราคา <strong>{price} บาทต่อโหล</strong> ผ้าขนหนูน้ำหนัก 14 ปอนด์นี้ให้ความรู้สึกพรีเมียมที่มักมาในราคาที่สูงกว่ามาก มอบประสบการณ์ที่เหนือกว่าในราคาที่เข้าถึงได้`,
         zh: `每打 <strong>{price} 泰铢</strong>，这款 14 磅的毛巾提供了一种通常伴随着更高成本的优质感觉，以更实惠的价格提供了提升的体验。`,
-        ar: `مقابل <strong>{price} बात للدزينة</strong>، توفر هذه المناشف التي تزن 14 رطلاً إحساسًا فاخرًا غالبًا ما يأتي بتكلفة أعلى بكثير، مما يوفر تجربة راقية بسعر مناسب.`,
+        ar: `مقابل <strong>{price} بات للدزينة</strong>، توفر هذه المناشف التي تزن 14 رطلاً إحساسًا فاخرًا غالبًا ما يأتي بتكلفة أعلى بكثير، مما يوفر تجربة راقية بسعر مناسب.`,
         hi: `<strong>{price} बात प्रति दर्जन</strong> में, ये 14 पाउंड के तौलिये एक प्रीमियम एहसास देते हैं जो अक्सर बहुत अधिक कीमत पर आते हैं, और एक उन्नत अनुभव प्रदान करते हैं।`
     },
     16: {

@@ -35,6 +35,7 @@ const ContactInfoItem: React.FC<{ icon: React.ElementType; labelKey: string; val
 const ContactPage: React.FC = () => {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
+  const siteName = t('footer.companyName');
   const pageTitle = t('contactPage.mainTitle');
   const canonicalUrl = `${window.location.origin}${langPrefix}/contact`;
   
@@ -45,12 +46,12 @@ const ContactPage: React.FC = () => {
   const jsonLd = { 
       "@context": "https://schema.org", 
       "@type": "ContactPage", 
-      "name": t('seo.contact.title'), 
+      "name": t('seo.contact.title', { siteName }), 
       "description": t('seo.contact.description'), 
       "url": canonicalUrl,
       "mainEntity": {
         "@type": "LocalBusiness",
-        "name": t('footer.companyName'),
+        "name": siteName,
         "legalName": t('contactPage.legalNameEntity'),
         "image": "https://i.postimg.cc/k5NcGrQx/Slumba-ZEN-logo-200.png",
         "telephone": phone,
@@ -86,7 +87,7 @@ const ContactPage: React.FC = () => {
   return (
     <>
       <MetaManager
-        title={t('seo.contact.title')}
+        title={t('seo.contact.title', { siteName })}
         description={t('seo.contact.description')}
         keywords={t('seo.contact.keywords')}
         canonicalUrl={canonicalUrl} 
@@ -122,13 +123,17 @@ const ContactPage: React.FC = () => {
           
           <div className="mt-16 sm:mt-20 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-neutral-900 mb-8">{t('contactPage.mapTitle')}</h2>
-            <a href="https://maps.app.goo.gl/JgA4yF8v8bK9xR2t5" target="_blank" rel="noopener noreferrer" aria-label={t('contactPage.mapAriaLabel')}>
-                <InlineImage 
-                    src="https://i.postimg.cc/8PzC4g9d/bangkok-map-stylized.jpg"
-                    alt={t('contactPage.addressLabel')}
-                    aspectRatio="16/9"
-                />
-            </a>
+            <div className="rounded-2xl shadow-xl overflow-hidden aspect-[5/3]">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.9264430259013!2d100.51755587508978!3d13.72290308666596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e298d2d351f5d1%3A0xc18202ec7d5a3d1e!2sJewelry%20Trade%20Center%20Thailand!5e0!3m2!1sen!2sth!4v1752320924106!5m2!1sen!2sth" 
+                    className="w-full h-full"
+                    style={{ border: 0 }} 
+                    allowFullScreen
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={t('contactPage.mapTitle')}>
+                </iframe>
+            </div>
           </div>
 
         </div>

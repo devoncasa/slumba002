@@ -44,7 +44,6 @@ const Header: React.FC = () => {
         { to: '/materials', labelKey: 'nav.learnItems.materials' },
         { to: '/what-is-tencel', labelKey: 'nav.learnItems.whatIsTencel' },
         { to: '/sizes', labelKey: 'nav.learnItems.sizes' },
-        { to: '/blog', labelKey: 'nav.learnItems.blog' },
     ]},
     { id: 'hotel-b2b', labelKey: 'nav.hotelB2B', to: '/hotels' },
     { id: 'shipping-warranty', labelKey: 'nav.shippingWarranty', to: '/delivery' },

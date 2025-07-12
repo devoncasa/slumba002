@@ -1,6 +1,9 @@
 
 
 
+
+
+
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import MetaManager from '../components/MetaManager';
@@ -40,13 +43,14 @@ const InfoDetailItem: React.FC<InfoDetailProps> = ({ icon: Icon, titleKey, descr
 const DeliveryWarrantyPage: React.FC = () => {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
+  const siteName = t('footer.companyName');
   const pageTitle = t('deliveryWarrantyPage.mainTitle');
   const canonicalUrl = `${window.location.origin}${langPrefix}/delivery`;
   
   const jsonLd = { 
     "@context": "https://schema.org", 
     "@type": "WebPage", 
-    "name": t('seo.deliveryWarranty.title'), 
+    "name": t('seo.deliveryWarranty.title', { siteName }), 
     "description": t('seo.deliveryWarranty.description'), 
     "url": canonicalUrl, 
     "keywords": t('seo.deliveryWarranty.keywords') 
@@ -55,7 +59,7 @@ const DeliveryWarrantyPage: React.FC = () => {
   return (
     <>
       <MetaManager
-        title={t('seo.deliveryWarranty.title')} 
+        title={t('seo.deliveryWarranty.title', { siteName })} 
         description={t('seo.deliveryWarranty.description')}
         keywords={t('seo.deliveryWarranty.keywords')}
         canonicalUrl={canonicalUrl} 
@@ -92,7 +96,7 @@ const DeliveryWarrantyPage: React.FC = () => {
                     <div className="space-y-8">
                       <InfoDetailItem icon={ClockIcon} titleKey="deliveryWarrantyPage.domesticTimeTitle" descriptionKey="deliveryWarrantyPage.domesticTimeDesc" />
                       <InfoDetailItem icon={TagIcon} titleKey="deliveryWarrantyPage.domesticServicesTitle" descriptionKey="deliveryWarrantyPage.domesticServicesDesc" />
-                      <InlineImage src="https://i.postimg.cc/x85H5W1f/shipping-box.jpg" alt={t('deliveryWarrantyPage.shippingPolicyTitle')} aspectRatio="16/9"/>
+                      <InlineImage src="https://i.postimg.cc/kMssGWg4/decorative-bedding-005.jpg" alt={t('deliveryWarrantyPage.shippingPolicyTitle')} aspectRatio="16/9"/>
                       <InfoDetailItem icon={GiftIcon} titleKey="deliveryWarrantyPage.domesticFreeShippingTitle" descriptionKey="deliveryWarrantyPage.domesticFreeShippingDesc" />
                       <InfoDetailItem icon={ShieldCheckIcon} titleKey="deliveryWarrantyPage.domesticPackagingTitle" descriptionKey="deliveryWarrantyPage.domesticPackagingDesc" />
                     </div>
@@ -134,7 +138,7 @@ const DeliveryWarrantyPage: React.FC = () => {
                           <p className="text-neutral-700 text-base">{t('deliveryWarrantyPage.returnPeriodDesc')}</p>
                         </div>
                       </div>
-                      <InlineImage src="https://i.postimg.cc/44N9p7c0/warranty-seal.jpg" alt={t('deliveryWarrantyPage.warrantyPolicyTitle')} />
+                      <InlineImage src="https://i.postimg.cc/T3FCGGYJ/decorative-bedding-0012.jpg" alt={t('deliveryWarrantyPage.warrantyPolicyTitle')} />
                       {/* Conditions */}
                       <div className="flex items-start space-x-4 rtl:space-x-reverse">
                         <SparklesIcon className="h-8 w-8 text-brand-primary flex-shrink-0 mt-1" aria-hidden="true" />

@@ -2,6 +2,7 @@
 
 
 
+
 import React, { useState, useMemo, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -18,6 +19,7 @@ type FilterKey = 'all' | string;
 const GalleryPage: React.FC = () => {
   const { t, i18n } = useTranslation();
   const currentLang = i18n.language as keyof Product['name'];
+  const siteName = t('footer.companyName');
   const pageTitle = t('galleryPage.title');
   const langPrefix = `/${i18n.language}`;
   const canonicalUrl = `${window.location.origin}${langPrefix}/gallery`;
@@ -192,7 +194,7 @@ const GalleryPage: React.FC = () => {
   return (
     <>
       <MetaManager
-        title={t('seo.gallery.title')}
+        title={t('seo.gallery.title', { siteName })}
         description={t('seo.gallery.description')}
         keywords={t('seo.gallery.keywords')}
         canonicalUrl={canonicalUrl}

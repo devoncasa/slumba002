@@ -1,5 +1,6 @@
 
 
+
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -98,7 +99,7 @@ const HotelInfoTable: React.FC<{ headerKeys: string[]; data: (string | JSX.Eleme
 export default function HotelsPage() {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
-  const siteName = "Slumbazen";
+  const siteName = "Slumba ZEN";
   const pageTitle = t('seo.hotels.title', { siteName });
   const pageDescription = t('seo.hotels.description');
   const pageKeywords = t('seo.hotels.keywords');
@@ -156,8 +157,9 @@ export default function HotelsPage() {
   return (
     <>
       <MetaManager
-        title={pageTitle} description={pageDescription} keywords={pageKeywords} ogTitle={pageTitle}
-        ogDescription={pageDescription} ogUrl={canonicalUrl} canonicalUrl={canonicalUrl}
+        title={pageTitle} description={pageDescription} keywords={pageKeywords}
+        ogTitle={pageTitle} ogDescription={pageDescription}
+        ogUrl={canonicalUrl} canonicalUrl={canonicalUrl}
         ogImage="https://i.postimg.cc/vBT3N7Pg/cover-Bedding-Solutions-for-Hotels-B2-B-Partners.jpg"
         jsonLd={serviceJsonLd}
       />

@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -39,7 +40,7 @@ const SizesPage: React.FC = () => {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
   const currentLang = i18n.language;
-  const siteName = "Slumbazen";
+  const siteName = "Slumba ZEN";
   const pageTitle = t('seo.sizes.title', { siteName });
   const pageDescription = t('seo.sizes.description');
   const pageKeywords = t('seo.sizes.keywords');
@@ -83,8 +84,9 @@ const SizesPage: React.FC = () => {
   return (
     <>
       <MetaManager
-        title={pageTitle} description={pageDescription} keywords={pageKeywords} ogTitle={pageTitle}
-        ogDescription={pageDescription} ogUrl={canonicalUrl} canonicalUrl={canonicalUrl}
+        title={pageTitle} description={pageDescription} keywords={pageKeywords}
+        ogTitle={pageTitle} ogDescription={pageDescription}
+        ogUrl={canonicalUrl} canonicalUrl={canonicalUrl}
         ogImage="https://i.postimg.cc/fLYC7RbJ/decorative00015.jpg"
         jsonLd={webpageJsonLd}
       />

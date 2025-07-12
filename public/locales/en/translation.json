@@ -15,8 +15,7 @@
     "learnItems": {
       "materials": "Fabric Type Information",
       "whatIsTencel": "What is Tencel™?",
-      "sizes": "Supported Sizes",
-      "blog": "Blog"
+      "sizes": "Supported Sizes"
     },
     "hotelB2B": "For Hotels & Partners (B2B)",
     "shippingWarranty": "Shipping & Warranty",
@@ -396,35 +395,6 @@
       "item4": "Ironing: If necessary, iron on low to medium heat, preferably while slightly damp or using a pressing cloth."
     }
   },
-  "hotelsPage": {
-    "mainTitle": "Bedding Solutions for Hotels & B2B Partners",
-    "mainDescription": "We understand the needs of hotels and B2B partners for high-quality, durable bedding that impresses guests and offers great value. Ask us for a B2B quote.",
-    "whyChooseUs": {
-      "title": "Why Do Leading Hotels Choose Us?",
-      "slideshowAlt": "B2B visual showcase – luxury hotel scenes",
-      "card1": { "title": "✓ Hotel-Standard Quality", "content": "We select raw materials and production processes that meet high standards. Our fabrics are durable for frequent washing and have a long lifespan." },
-      "card2": { "title": "✓ Wide Variety of Options", "content": "Multiple fabric types (Cotton, Tencel™, Soft-Tex™, CVC) and thread density levels are available to suit every budget and hotel style.", "link": "View All Fabric Types" },
-      "card3": { "title": "✓ Direct Manufacturer Pricing", "content": "Order directly from the factory to ensure cost-effective pricing, with special offers for B2B clients." },
-      "card4": { "title": "✓ Customization Services", "content": "We can produce custom sizes, embroider logos, or select specific colors for your project." },
-      "card5": { "title": "✓ Consultation Services", "content": "Our team of experts is ready to advise you on selecting the right fabric for your hotel's type and budget." },
-      "card6": { "title": "✓ Free Fabric Samples", "content": "We are happy to send you fabric samples to test the quality and feel before you place a bulk order.", "button": "Request Samples for B2B" }
-    },
-    "expertAdvice": {
-      "title": "📖 Expert Advice: Choosing Fabric for Your Hotel",
-      "header1": "Hotel Type/Use Case", "header2": "Recommended Fabric", "header3": "Reason",
-      "row1": { "useCase": "Boutique / Small Hotels", "recommendation": "Cotton Percale (500-700 density) or CVC (500 density) Stripe", "reason": "Comfortable, breathable, easy to care for, and cost-effective." },
-      "row2": { "useCase": "Seaside Hotels / Resorts", "recommendation": "Cotton Percale (500-700 density) or Tencel™ (400 density)", "reason": "Extremely breathable, quick-drying, doesn't retain moisture, and feels cool." },
-      "row3": { "useCase": "3-4 Star City Hotels", "recommendation": "Cotton Sateen (500-1000 density), Soft-Tex™ (600 density)", "reason": "Dense and soft texture, luxurious appearance, and durable for frequent washing." },
-      "row4": { "useCase": "5-Star Luxury Hotels / VIP Rooms", "recommendation": "High-Quality Cotton Sateen (1000+ density) or Tencel™ (600+ density)", "reason": "Ultimate softness and comfort, luxurious, and makes a strong impression." },
-      "row5": { "useCase": "Serviced Apartments / Premium Dorms", "recommendation": "Soft-Tex™ (600 density) or CVC (400-500 density)", "reason": "Durable, easy to care for, wrinkle-resistant, and cost-effective for long-term use." }
-    },
-    "cta": {
-      "title": "Contact Our B2B Team for a Special Offer",
-      "description": "Whether you are a hotel, resort, real estate project, or a business in need of high-quality bedding, we are ready to serve you and offer the best prices.",
-      "button1": "Request a Quote for B2B",
-      "button2": "Call to Consult: 081-851-9922"
-    }
-  },
   "whiteSheetsPage": {
     "mainTitle": "White Bed Sheets Collection: Timeless Elegance",
     "mainDescription": "Experience the classic charm and pristine purity of high-quality white bed sheets from Slumba ZEN. Perfect for any bedroom style, creating an atmosphere of cleanliness, visual comfort, and true luxury. Make every night a perfect retreat.",
@@ -503,79 +473,6 @@
       "ctaButton": "Contact for Custom Size"
     }
   },
-  "seo": {
-    "home": {
-      "title": "Slumbazen: Luxury Hotel Bedding & Towels | Made in Thailand",
-      "description": "Experience 5-star hotel luxury with Slumbazen. Shop premium Thai cotton sheets & towels, crafted for comfort. Worldwide delivery.",
-      "keywords": "hotel bedding, luxury bed sheets, Slumbazen, 100% cotton sheets, tencel lyocell sheets, factory direct bedding, breathable sheets, hypoallergenic bedding, B2B hotel supplier, long-staple cotton, sustainable bedding, premium linens"
-    },
-    "collections": {
-      "title": "Shop Bedding by Category: White, Colors, Sets | Slumbazen",
-      "description": "Browse our hotel-quality bedding collections by category. Shop for timeless white sheets, vibrant premium colors, or convenient complete sets from Slumbazen at factory-direct prices.",
-      "keywords": "bedding collections, shop bedding, white bed sheets, colored bedding, bedding sets, hotel quality linen, Slumbazen, buy bed sheets, linen categories"
-    },
-    "materials": {
-      "title": "Bedding Material Guide | Cotton, Tencel™ & More | Slumbazen",
-      "description": "Hotel Bedding Materials Guide: Learn about thread density of Cotton, Tencel™, Soft-Tex™, CVC, with tips from Slumbazen, for superior sleep.",
-      "keywords": "bedding materials, what is cotton, what is tencel, thread density, fabric guide, Soft-Tex, CVC, fiber quality, choosing hotel sheets, Slumbazen, pure cotton sheets, is tencel good, bed linen info"
-    },
-    "hotels": {
-      "title": "B2B Hotel Bedding Slumbazen | Factory Prices, Export Quality",
-      "description": "Slumbazen, a manufacturer and supplier of B2B hotel bedding. High-quality Cotton, Tencel™, Soft-Tex™. Custom specs, logo embroidery, factory prices. Free consultation.",
-      "keywords": "B2B hotel bedding, Slumbazen, hotel bedding manufacturer, wholesale bed linen, custom bedding production, logo embroidery sheets, B2B factory price, Thailand bedding supplier, hotel linen, B2B bedding solutions, linen for hospitality"
-    },
-    "gallery": {
-      "title": "Bedding Gallery | Hotel Sheet Ideas & Styles | Slumbazen",
-      "description": "Find inspiration in the bedding gallery of Slumbazen. See hotel-quality Cotton, Tencel™, Soft-Tex™ sheets in various colors and designs. Order at factory prices.",
-      "keywords": "bedding gallery, bedding ideas, bed sheet designs, Slumbazen, cotton bedding, tencel bedding, beautiful colored sheets, hotel bed linen, sheet photos, bedding examples, bedding design inspiration"
-    },
-    "sizes": {
-      "title": "Standard Bedding Sizes: Twin, Queen, King & Custom | Slumbazen",
-      "description": "Size chart for sheets, duvet covers, and pillowcases for 3.5, 5, and 6 ft beds. Custom tailoring service for your mattress size by Slumbazen factory. Guaranteed fit for maximum comfort.",
-      "keywords": "bedding sizes, bedding size chart, 3.5 ft sheets, 5 ft sheets, 6 ft sheets, duvet cover sizes, pillowcase sizes, custom size bedding, mattress depth, Slumbazen, fitted sheet dimensions"
-    },
-    "whatIsTencel": {
-      "title": "What is Tencel™ Lyocell Fabric? Benefits, Care & vs. Cotton",
-      "description": "In-depth guide to Tencel™ Lyocell: unique properties, softness, eco-friendliness. Compare it with Cotton and learn Tencel™ care tips from Slumbazen experts for long-lasting use.",
-      "keywords": "what is tencel, tencel fabric, lyocell, tencel properties, tencel benefits, tencel vs cotton, tencel care instructions, tencel bed sheets, Slumbazen, natural fiber, cooling fabric, tencel bedding guide"
-    },
-    "deliveryWarranty": {
-      "title": "Shipping & Warranty Policy for Slumbazen Bedding",
-      "description": "Details on Slumbazen's bedding shipping policy (Thailand and international), product warranty, return conditions, and quality fabric care instructions for your satisfaction.",
-      "keywords": "shipping policy, product warranty, returns, bedding care, Slumbazen, free delivery, Kerry, Flash Express, DHL, international shipping cost, delivery information, product guarantee"
-    },
-    "contact": {
-        "title": "Contact Slumbazen - Order Hotel Bedding & Get a Quote",
-        "description": "Contact the Slumbazen factory to inquire, order B2B hotel bedding, export quality, or visit our showroom. Call 081-851-9922, LINE: kris.bkk. We are ready to serve you.",
-        "keywords": "contact Slumbazen, phone number, LINE ID, factory map, order bed sheets, B2B price inquiry, Bang Bo bedding showroom, contact us, Thai bedding manufacturer"
-    },
-    "whiteSheets": {
-        "title": "White Hotel Bed Sheets | Premium Cotton, Tencel™ | Slumbazen",
-        "description": "Shop exclusive white bed sheets from Slumbazen. Hotel-quality Cotton & Tencel™ fabric. Clean, comforting, timeless elegance. Factory prices.",
-        "keywords": "white sheets, white hotel bedding, white cotton sheets, white tencel sheets, white linen sets, Slumbazen, luxury white sheets, hotel collection white, factory quality"
-    },
-    "premiumColors": {
-        "title": "Premium Color Bed Sheets - Stylish Designs, Hotel Quality",
-        "description": "Style your bedroom with premium color bed sheets from Slumbazen. Various shades in quality Cotton, Tencel™ fabrics. Custom orders at factory prices.",
-        "keywords": "colored sheets, premium color bedding, designer bed linen, Slumbazen color sheets, solid color sheets, luxury color bedding, factory quality, cotton color sheets, tencel color sheets"
-    },
-    "beddingSets": {
-        "title": "Complete Bedding Sets - Hotel Quality, Factory Prices | Slumbazen",
-        "description": "Choose complete, hotel-quality bedding sets from Slumbazen. Includes fitted sheet, pillowcases, and duvet cover, perfectly coordinated for superior comfort and style. Factory direct.",
-        "keywords": "bedding sets, complete bed linen, hotel bedding package, Slumbazen bedding sets, bed in a bag, luxury bedding ensemble, factory quality, sheet and duvet cover sets"
-    },
-    "towels": {
-        "title": "Hotel Towel Guide: Choose Size, Weight & Washing Method",
-        "description": "In-depth guide on 100% cotton hotel towels and bath mats. How to choose the right weight (lbs) and size for 3-5 star hotels, with first-wash instructions from Slumbazen.",
-        "keywords": "hotel towels, bath towel, bath mat, towel size, towel weight, how to wash towels, 12 lbs towel, 16 lbs towel, combed cotton, Slumbazen",
-        "productsListTitle": "Towel Products"
-    },
-    "blog": {
-        "title": "Blog: Hotel Bedding Tips, Insights & Care Guides | Slumbazen",
-        "description": "Browse the Slumbazen blog for expert tips on hotel-quality bedding care, insights into materials, and the latest trends in the hospitality industry.",
-        "keywords": "bedding blog, sheet care tips, towel guide, hotel quality, Slumbazen, linen articles"
-    }
-  },
   "contactOrder": {
     "title": "Product Inquiry",
     "productName": "Product Name",
@@ -593,27 +490,6 @@
     "whiteSheets": "White Sheets Collection",
     "premiumColors": "Premium Colors Collection",
     "beddingSets": "Complete Bedding Sets"
-  },
-  "blogPage": {
-      "mainTitle": "Our Blog",
-      "mainDescription": "Insights, tips, and stories from the world of premium textiles and hospitality.",
-      "category": "Guides & Tips",
-      "comingSoon": "Full Article Coming Soon",
-      "post1": {
-          "title": "The Ultimate Guide to Washing Hotel Towels for Maximum Softness",
-          "summary": "Learn the essential first-wash steps and long-term care tips to keep your hotel towels fluffy, absorbent, and luxurious for years to come.",
-          "keywords": "how to wash towels, towel care, first wash, hotel towels, fluffy towels"
-      },
-      "post2": {
-          "title": "Thread Count Debunked: What Really Matters in Fabric Quality?",
-          "summary": "Don't be fooled by high numbers. We explore what truly defines premium bedding, from fiber length and weave type to the finishing process. Make informed choices.",
-          "keywords": "thread count, fabric quality, bedding materials, long-staple cotton, sateen vs percale"
-      },
-      "post3": {
-          "title": "5-Star Reviews for Your Airbnb: The Impact of Quality Bedding",
-          "summary": "Learn how investing in hotel-quality bedding can elevate your guest experience, boost your ratings, and increase bookings. Small details make a big difference.",
-          "keywords": "airbnb tips, hotel bedding, guest experience, 5-star reviews, hospitality"
-      }
   },
   "towelsPage": {
     "mainTitle": "Hotel Towel & Bath Mat Guide",

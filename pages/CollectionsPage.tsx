@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -40,6 +41,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ titleKey, descriptionKey, l
 const CollectionsPage: React.FC = () => {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
+  const siteName = t('footer.companyName');
   const canonicalUrl = `${window.location.origin}${langPrefix}/collections`;
   const homeUrl = `${window.location.origin}${langPrefix}`;
 
@@ -78,13 +80,13 @@ const CollectionsPage: React.FC = () => {
   const collectionJsonLd = {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": t('seo.collections.title'),
+      "name": t('seo.collections.title', { siteName }),
       "description": t('seo.collections.description'),
       "url": canonicalUrl,
       "keywords": t('seo.collections.keywords'),
        "publisher": {
         "@type": "Organization",
-        "name": t('footer.companyName'),
+        "name": siteName,
         "logo": {
             "@type": "ImageObject",
             "url": "https://i.postimg.cc/k5NcGrQx/Slumba-ZEN-logo-200.png"
@@ -96,7 +98,9 @@ const CollectionsPage: React.FC = () => {
           "@type": "ListItem",
           "position": index + 1,
           "name": t(cat.titleKey),
-          "url": `${window.location.origin}${cat.linkTo}`
+          "description": t(cat.descriptionKey),
+          "url": `${window.location.origin}${cat.linkTo}`,
+          "image": cat.imageUrl
         }))
       }
     };
@@ -105,7 +109,7 @@ const CollectionsPage: React.FC = () => {
   return (
     <>
       <MetaManager
-        title={t('seo.collections.title')}
+        title={t('seo.collections.title', { siteName })}
         description={t('seo.collections.description')}
         keywords={t('seo.collections.keywords')}
         ogImage="https://i.postimg.cc/XNw1dQZQ/decorative0008.jpg"

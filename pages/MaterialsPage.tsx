@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -61,7 +62,7 @@ interface ShopTip { segments: ShopTipSegment[]; }
 export default function MaterialsPage() {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
-  const siteName = "Slumbazen";
+  const siteName = "Slumba ZEN";
   const pageTitle = t('seo.materials.title', { siteName });
   const pageDescription = t('seo.materials.description');
   const pageKeywords = t('seo.materials.keywords');
@@ -124,8 +125,9 @@ export default function MaterialsPage() {
   return (
     <>
       <MetaManager
-        title={pageTitle} description={pageDescription} keywords={pageKeywords} ogTitle={pageTitle}
-        ogDescription={pageDescription} ogType="article" canonicalUrl={canonicalUrl}
+        title={pageTitle} description={pageDescription} keywords={pageKeywords}
+        ogTitle={pageTitle} ogDescription={pageDescription}
+        ogType="article" canonicalUrl={canonicalUrl}
         ogImage="https://i.postimg.cc/c4hD5CB3/decorative00010.jpg"
         jsonLd={[articleJsonLd, breadcrumbJsonLd, faqJsonLd]}
       />

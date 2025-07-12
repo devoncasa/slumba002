@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import type { Product, LocalizedString } from '../data/galleryData';
@@ -52,12 +53,6 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   };
 
   const localizedDescription = getLocalizedString(product.description);
-
-  // Split description for expand/collapse functionality
-  const descriptionParts = localizedDescription.split('<br/>');
-  const hasExpandableContent = descriptionParts.length > 2;
-  const initialContent = hasExpandableContent ? descriptionParts.slice(0, 2).join('<br/>') : localizedDescription;
-  const expandableContent = hasExpandableContent ? descriptionParts.slice(2).join('<br/>') : '';
   
   return (
     <div id={product.id} className="bg-brand-light rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col group text-start">
@@ -97,30 +92,25 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
         </div>
 
         {/* Description Section */}
-        <div className="text-sm text-neutral-700 mb-5 leading-relaxed prose prose-sm max-w-none prose-a:text-brand-primary prose-a:font-semibold hover:prose-a:underline prose-p:my-2 prose-ul:list-disc prose-ul:ml-4 prose-li:my-1">
-          <div dangerouslySetInnerHTML={{ __html: initialContent }} />
-          
-          {hasExpandableContent && (
-            <>
-              <div 
-                className={`grid transition-all duration-700 ease-in-out ${isExpanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
-              >
-                <div className="overflow-hidden">
-                    <div className="pt-2" dangerouslySetInnerHTML={{ __html: expandableContent }} />
-                </div>
-              </div>
-
-              <button 
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="inline-flex items-center text-sm font-semibold text-brand-primary hover:text-brand-dark transition-colors mt-2"
-                aria-expanded={isExpanded}
-              >
-                {isExpanded ? t('beddingSetCard.showLess') : t('beddingSetCard.showMore')}
-                <ChevronDownIcon className={`h-4 w-4 ms-1 transform transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
-              </button>
-            </>
+        <div className="text-sm text-neutral-700 mb-5 leading-relaxed relative">
+          <div 
+            className={`prose prose-sm max-w-none transition-all duration-700 ease-in-out overflow-hidden ${isExpanded ? 'max-h-[1000px]' : 'max-h-24'}`}
+            dangerouslySetInnerHTML={{ __html: localizedDescription }} 
+          />
+          {!isExpanded && (
+            <div className="absolute bottom-0 h-10 w-full bg-gradient-to-t from-brand-light to-transparent pointer-events-none"></div>
           )}
         </div>
+
+        <button 
+          onClick={() => setIsExpanded(!isExpanded)}
+          className="inline-flex items-center text-sm font-semibold text-brand-primary hover:text-brand-dark transition-colors mb-5 self-start"
+          aria-expanded={isExpanded}
+        >
+          {isExpanded ? t('beddingSetCard.showLess') : t('beddingSetCard.showMore')}
+          <ChevronDownIcon className={`h-4 w-4 ms-1 transform transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`} />
+        </button>
+
 
         <div className="mt-auto pt-4 border-t border-neutral-200/80 flex justify-between items-center">
           <p className="text-xl font-bold text-brand-dark">

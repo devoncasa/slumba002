@@ -1,5 +1,4 @@
 
-
 import React, { useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
@@ -360,7 +359,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <MetaManager
-        title={t('seo.home.title')}
+        title={t('seo.home.title', { siteName })}
         description={t('seo.home.description')}
         keywords={t('seo.home.keywords')}
         ogImage={randomHeroImage} 

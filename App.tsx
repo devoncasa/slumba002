@@ -17,7 +17,6 @@ import WhatIsTencelPage from './pages/WhatIsTencelPage';
 import DeliveryWarrantyPage from './pages/DeliveryWarrantyPage';
 import ContactPage from './pages/ContactPage';
 import TowelsPage from './pages/TowelsPage';
-import BlogPage from './pages/BlogPage';
 
 // Import new product category pages
 import WhiteSheetsPage from './pages/WhiteSheetsPage';
@@ -88,7 +87,6 @@ const AppContent: React.FC = () => {
             <Route path="delivery" element={<DeliveryWarrantyPage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="towels" element={<TowelsPage />} />
-            <Route path="blog" element={<BlogPage />} />
             <Route path="products/white-sheets" element={<WhiteSheetsPage />} />
             <Route path="products/premium-colors" element={<PremiumColorsPage />} />
             <Route path="products/sets" element={<BeddingSetsPage />} />

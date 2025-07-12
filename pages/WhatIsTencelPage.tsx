@@ -1,6 +1,7 @@
 
 
 
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -24,7 +25,7 @@ const FeatureCard: React.FC<{ titleKey: string; descriptionKey: string; icon: JS
 export default function WhatIsTencelPage() {
   const { t, i18n } = useTranslation();
   const langPrefix = `/${i18n.language}`;
-  const siteName = "Slumbazen";
+  const siteName = "Slumba ZEN";
   const pageTitle = t('seo.whatIsTencel.title', { siteName });
   const pageDescription = t('seo.whatIsTencel.description');
   const pageKeywords = t('seo.whatIsTencel.keywords');
@@ -56,8 +57,9 @@ export default function WhatIsTencelPage() {
   return (
     <>
       <MetaManager
-        title={pageTitle} description={pageDescription} keywords={pageKeywords} ogTitle={pageTitle}
-        ogDescription={pageDescription} ogUrl={canonicalUrl} ogType="article"
+        title={pageTitle} description={pageDescription} keywords={pageKeywords}
+        ogTitle={pageTitle} ogDescription={pageDescription}
+        ogUrl={canonicalUrl} ogType="article"
         ogImage="https://i.postimg.cc/L4Bvn57W/decorative000201.jpg"
         canonicalUrl={canonicalUrl} jsonLd={[articleJsonLd, breadcrumbJsonLd]}
       />
