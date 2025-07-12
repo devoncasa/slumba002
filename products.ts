@@ -3,21 +3,10 @@ import type { Product, LocalizedString } from './data/galleryData';
 
 // --- IMAGE ASSETS ---
 export const IMAGE_ASSETS = {
-  hero_backgrounds: [
-    'https://i.postimg.cc/sDnT67k8/decorative-bedding-0010.jpg',  
-    'https://i.postimg.cc/kMssGWg4/decorative-bedding-005.jpg',  
-    'https://i.postimg.cc/6pyYDTwQ/decorative-bedding-009.jpg',  
-    'https://i.postimg.cc/8zJmZ3BJ/decorative-bedding-001.jpg',  
-    'https://i.postimg.cc/VkHKmhTL/decorative00013.jpg',  
-    'https://i.postimg.cc/SRSGVxDk/decorative-bedding-006.jpg',  
-    'https://i.postimg.cc/P5MPbgFJ/Bed000309.jpg',  
-    'https://i.postimg.cc/qqXmrvf9/decorative0007.jpg',  
-    'https://i.postimg.cc/HLw3XLnj/white_plain_0008_Large.jpg',  
-    'https://i.postimg.cc/15YKcP61/decorative_bedding_002.jpg'
-  ],
+  hero_backgrounds: [ 'https://i.postimg.cc/sDnT67k8/decorative-bedding-0010.jpg', 'https://i.postimg.cc/kMssGWg4/decorative-bedding-005.jpg', 'https://i.postimg.cc/6pyYDTwQ/decorative-bedding-009.jpg', 'https://i.postimg.cc/8zJmZ3BJ/decorative-bedding-001.jpg', 'https://i.postimg.cc/VkHKmhTL/decorative00013.jpg', 'https://i.postimg.cc/SRSGVxDk/decorative-bedding-006.jpg', 'https://i.postimg.cc/P5MPbgFJ/Bed000309.jpg', 'https://i.postimg.cc/qqXmrvf9/decorative0007.jpg', 'https://i.postimg.cc/HLw3XLnj/white_plain_0008_Large.jpg', 'https://i.postimg.cc/15YKcP61/decorative_bedding_002.jpg' ],
   white_striped: [ 'https://i.postimg.cc/HkmWYSq5/white-striped-001.jpg', 'https://i.postimg.cc/s2KkRKzV/white-striped-0010.jpg', 'https://i.postimg.cc/6pVsMt14/white-striped-0011.jpg', 'https://i.postimg.cc/T3vMjpQX/white-striped-0012.jpg', 'https://i.postimg.cc/3JvQDgXB/white-striped-0013.jpg', 'https://i.postimg.cc/rybLmhrs/white-striped-0014.jpg', 'https://i.postimg.cc/Fz2tBR43/white-striped-0015.jpg', 'https://i.postimg.cc/WzDL8ZQs/white-striped-0016.jpg', 'https://i.postimg.cc/fLqQYCqH/white-striped-0017.jpg', 'https://i.postimg.cc/RFZz3yd6/white-striped-0018.jpg', 'https://i.postimg.cc/QMb3dhQZ/white-striped-0019.jpg', 'https://i.postimg.cc/65n5Nsmt/white-striped-002.jpg', 'https://i.postimg.cc/bv8PPs2R/white-striped-0020.jpg', 'https://i.postimg.cc/zGTN4n3B/white-striped-0021.jpg', 'https://i.postimg.cc/Yq5kXXrZ/white-striped-0022.jpg', 'https://i.postimg.cc/gkXmH9W3/white-striped-0023.jpg', 'https://i.postimg.cc/c15d3xVs/white-striped-0024.jpg', 'https://i.postimg.cc/pr7xMCD9/white-striped-0025.jpg' ],
   white_plain: [ 'https://i.postimg.cc/NfFNSYJP/white-plain-0001-Large.jpg', 'https://i.postimg.cc/QtSbYnp3/white-plain-00010-Large.jpg', 'https://i.postimg.cc/sxXJk9cZ/white-plain-00011-Large.jpg', 'https://i.postimg.cc/hv50czyZ/white-plain-00012-Large.jpg', 'https://i.postimg.cc/44LPzqfv/white-plain-00013-Large.jpg', 'https://i.postimg.cc/281wTGys/white-plain-00014-Large.jpg', 'https://i.postimg.cc/28gxtWBV/white-plain-00015-Large.jpg', 'https://i.postimg.cc/jSNhYjzv/white-plain-00016-Large.jpg', 'https://i.postimg.cc/jjb4xrcT/white-plain-00017-Large.jpg', 'https://i.postimg.cc/tgNt7mvx/white-plain-00018-Large.jpg', 'https://i.postimg.cc/cH173MP5/white-plain-00019-Large.jpg', 'https://i.postimg.cc/wMTW6d6M/white-plain-0002-Large.jpg' ],
-  color_plain: ['https://i.postimg.cc/MHZsH24B/Bed000363.jpg', 'https://i.postimg.cc/P5MPbgFJ/Bed000309.jpg', 'https://i.postimg.cc/25PTQLtC/Bed000242.jpg', 'https://i.postimg.cc/DZJHFK9w/Bed000222.jpg', 'https://i.postimg.cc/C19yfKG8/Bed000213.jpg', 'https://i.postimg.cc/1R6Rrx8S/Bed000325.jpg'],
+  color_plain: ['https://i.postimg.cc/MHZsH24B/Bed000363.jpg', 'https://i.postimg.cc/P5MPbgFJ/Bed000309.jpg', 'https://i.postimg.cc/25PTQLtC/Bed000242.jpg', 'https://i.postimg.cc/DZJHFK9w/Bed000222.jpg', 'https://i.postimg.cc/C19yfKG8/Bed000213.jpg', 'https://i.postimg.cc/1R6Rrx8S/Bed000325.jpg', 'https://i.postimg.cc/KYLStp8v/premium-color-01.jpg', 'https://i.postimg.cc/2S5kXhCg/premium-color-02.jpg', 'https://i.postimg.cc/W1Yk0G2b/premium-color-03.jpg'],
   towel: ['https://i.postimg.cc/sxYkwQr8/hotel-towel-0023.jpg', 'https://i.postimg.cc/DzD3Z36C/hotel-towel-0020.jpg', 'https://i.postimg.cc/dQGcqXyB/hotel-towel-0024.jpg', 'https://i.postimg.cc/vBVFx2SG/hotel-towel-0021.jpg'],
   bolster: ['https://i.postimg.cc/sxrVw97p/bolster-pillow20.jpg', 'https://i.postimg.cc/TwmdVHLd/bolster-pillow21.jpg'],
   decorative_bedding: [ 'https://i.postimg.cc/8zJmZ3BJ/decorative-bedding-001.jpg', 'https://i.postimg.cc/sDnT67k8/decorative-bedding-0010.jpg', 'https://i.postimg.cc/Xv5xYhrS/decorative-bedding-0011.jpg', 'https://i.postimg.cc/T3FCGGYJ/decorative-bedding-0012.jpg', 'https://i.postimg.cc/15YKcP61/decorative_bedding_002.jpg', 'https://i.postimg.cc/BQvgKtjC/decorative-bedding-003.jpg', 'https://i.postimg.cc/ZnwxQzM3/decorative-bedding-004.jpg', 'https://i.postimg.cc/kMssGWg4/decorative-bedding-005.jpg', 'https://i.postimg.cc/SRSGVxDk/decorative-bedding-006.jpg', 'https://i.postimg.cc/sX9cphPT/decorative-bedding-007.jpg', 'https://i.postimg.cc/TwX0L9by/decorative-bedding-008.jpg', 'https://i.postimg.cc/6pyYDTwQ/decorative-bedding-009.jpg' ]
@@ -199,25 +188,42 @@ function generateEnhancedDescription(product: Product): LocalizedString {
 // --- RAW DATA & MAPPINGS ---
 const rawProductData = [
     // --- Bedding Data ---
-    { code: 'FS-S35-ST370P-001', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 245 },
-    { code: 'FS-S35-ST370S-002', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Striped Pattern / White', price: 255 },
-    { code: 'FS-S35-C260S-003', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern', price: 505 },
-    { code: 'FS-S35-C230P-004', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '230 Thread Count / Plain Pattern', price: 290 },
-    { code: 'FS-S35-C260P-005', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / Plain Pattern', price: 305 },
-    { code: 'FS-S35-C260S-006', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern', price: 315 },
-    { code: 'FS-S35-C310P-007', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / Plain Pattern', price: 330 },
-    { code: 'FS-S35-C310S-008', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / 1" Striped Pattern', price: 330 },
-    { code: 'FS-S35-CVC50-195P-009', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'CVC 50/50', spec: '195 Thread Count / Plain Pattern', price: 250 },
-    { code: 'FS-S35-CVC60-260S-010', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern', price: 315 },
-    { code: 'FS-Q50-ST370P-011', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 290 },
-    { code: 'FS-Q50-ST370S-012', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Striped Pattern / White', price: 310 },
-    { code: 'FS-Q50-C260S-013', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern', price: 585 },
-    { code: 'FS-K60-C310P-014', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / Plain Pattern', price: 420 },
-    { code: 'PC-STD-C260S-015', type: 'Pillow Case', size: 'Standard', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern / White', price: 100 },
-    { code: 'DC-K60-ST370P-016', type: 'Duvet Cover', size: '6 ฟุต x 12 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / Blue', price: 600 },
-    { code: 'PC-STD-ST370P-019', type: 'Pillow Case', size: 'Standard', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 70 },
-    { code: 'PC-STD-ST370S-020', type: 'Pillow Case', size: 'Standard', fabric: 'Soft tex', spec: '370 Thread Count / Striped Pattern / White', price: 80 },
-    { code: 'PC-STD-CVC60S-021', type: 'Pillow Case', size: 'Standard', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern / White', price: 105 },
+    { code: 'FS-S35-ST370P-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 245 },
+    { code: 'FS-S35-ST370S-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Striped Pattern / White', price: 255 },
+    { code: 'FS-S35-C260S-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern / White', price: 505 },
+    { code: 'FS-S35-C230P-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '230 Thread Count / Plain Pattern / White', price: 290 },
+    { code: 'FS-S35-C260P-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / Plain Pattern / White', price: 305 },
+    { code: 'FS-S35-C310P-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / Plain Pattern / White', price: 330 },
+    { code: 'FS-S35-C310S-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / 1" Striped Pattern / White', price: 330 },
+    { code: 'FS-S35-CVC50P-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'CVC 50/50', spec: '195 Thread Count / Plain Pattern / White', price: 250 },
+    { code: 'FS-S35-CVC60S-W', type: 'Fitted Sheet', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern / White', price: 315 },
+    
+    { code: 'FS-Q50-ST370P-W', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 290 },
+    { code: 'FS-Q50-ST370S-W', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Striped Pattern / White', price: 310 },
+    { code: 'FS-Q50-C260S-W', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern / White', price: 585 },
+    { code: 'FS-Q50-C310P-W', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / Plain Pattern / White', price: 380 },
+    { code: 'FS-Q50-CVC60S-W', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern / White', price: 365 },
+
+    { code: 'FS-K60-ST370P-W', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 320 },
+    { code: 'FS-K60-C310P-W', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / Plain Pattern / White', price: 420 },
+    { code: 'FS-K60-C400S-W', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'Cotton 100%', spec: '400 Thread Count / 1" Striped Pattern / White', price: 685 },
+    { code: 'FS-K60-CVC60S-W', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern / White', price: 405 },
+
+    { code: 'PC-STD-C260S-W', type: 'Pillow Case', size: 'Standard', fabric: 'Cotton 100%', spec: '260 Thread Count / 1" Striped Pattern / White', price: 100 },
+    { code: 'PC-STD-ST370P-W', type: 'Pillow Case', size: 'Standard', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 70 },
+    { code: 'PC-STD-CVC60S-W', type: 'Pillow Case', size: 'Standard', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern / White', price: 105 },
+    
+    { code: 'DC-S35-C310S-W', type: 'Duvet Cover', size: '3.5 ฟุต x 10 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / 1" Striped Pattern / White', price: 780 },
+    { code: 'DC-Q50-ST370P-W', type: 'Duvet Cover', size: '5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / White', price: 550 },
+    { code: 'DC-K60-C310S-W', type: 'Duvet Cover', size: '6 ฟุต x 12 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / 1" Striped Pattern / White', price: 980 },
+    { code: 'DC-K60-CVC60S-W', type: 'Duvet Cover', size: '6 ฟุต x 12 นิ้ว', fabric: 'CVC 60/40', spec: '260 Thread Count / 1" Striped Pattern / White', price: 750 },
+    
+    // Colored Items
+    { code: 'FS-K60-ST370P-BLU', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / Blue', price: 340 },
+    { code: 'FS-Q50-ST370P-GRY', type: 'Fitted Sheet', size: '5 ฟุต x 10 นิ้ว', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / Grey', price: 310 },
+    { code: 'FS-K60-C310P-CRM', type: 'Fitted Sheet', size: '6 ฟุต x 12 นิ้ว', fabric: 'Cotton 100%', spec: '310 Thread Count / Plain Pattern / Cream', price: 450 },
+    { code: 'PC-STD-ST370P-GRN', type: 'Pillow Case', size: 'Standard', fabric: 'Soft tex', spec: '370 Thread Count / Plain Pattern / Green', price: 90 },
+
     // --- TOWEL DATA ---
     { code: 'TW-BTH-12-WHT', type: 'Towel', size: '27" x 54"', fabric: 'Cotton 100%', spec: '12 lbs / Combed Cotton / White', price: 650 },
     { code: 'TW-BTH-14-WHT', type: 'Towel', size: '27" x 54"', fabric: 'Cotton 100%', spec: '14 lbs / Combed Cotton / White', price: 750 },
@@ -241,7 +247,7 @@ const mappings = {
         '3.5 ฟุต x 10 นิ้ว': { key: 's35_10', th: '3.5 ฟุต x 10 นิ้ว', en: '3.5 ft x 10 inches', zh: '3.5英尺 x 10英寸', ar: '3.5 قدم × 10 بوصة', hi: '3.5 फुट x 10 इंच' },
         '5 ฟุต x 10 นิ้ว': { key: 'q50_10', th: '5 ฟุต x 10 นิ้ว', en: '5 ft x 10 inches', zh: '5英尺 x 10英寸', ar: '5 قدم × 10 بوصة', hi: '5 फुट x 10 इंच' },
         '6 ฟุต x 12 นิ้ว': { key: 'k60_12', th: '6 ฟุต x 12 นิ้ว', en: '6 ft x 12 inches', zh: '6英尺 x 12英寸', ar: '6 قدم × 12 بوصة', hi: '6 फुट x 12 इंच' },
-        'Standard': { key: 'standard', th: 'ขนาดมาตรฐาน', en: 'Standard', zh: '标准尺寸', ar: 'حجم قياسي', hi: 'मानक आकार' },
+        'Standard': { key: 'pillow_std', th: 'ขนาดมาตรฐาน', en: 'Standard', zh: '标准尺寸', ar: 'حجم قياسي', hi: 'मानक आकार' },
         '27" x 54"': { key: 'towel_std', th: '27" x 54"', en: '27" x 54"', zh: '27英寸 x 54英寸', ar: '27" × 54"', hi: '27" x 54"' },
         '30" x 60"': { key: 'towel_large', th: '30" x 60"', en: '30" x 60"', zh: '30英寸 x 60英寸', ar: '30" × 60"', hi: '30" x 60"' },
         '14" x 44"': { key: 'bolster_14x44', th: '14" x 44"', en: '14" x 44"', zh: '14英寸 x 44英寸', ar: '14" × 44"', hi: '14" x 44"' },
@@ -263,6 +269,8 @@ const mappings = {
         'White': { key: 'white', th: 'ขาว (White)', en: 'White', zh: '白色', ar: 'أبيض', hi: 'सफ़ेद' },
         'Blue': { key: 'blue', th: 'ฟ้า (Blue)', en: 'Blue', zh: '蓝色', ar: 'أزرق', hi: 'नीला' },
         'Cream': { key: 'cream', th: 'ครีม (Cream)', en: 'Cream', zh: '奶油色', ar: 'كريمي', hi: 'क्रीम' },
+        'Grey': { key: 'grey', th: 'เทา (Grey)', en: 'Grey', zh: '灰色', ar: 'رمادي', hi: 'ग्रे' },
+        'Green': { key: 'green', th: 'เขียว (Green)', en: 'Green', zh: '绿色', ar: 'أخضر', hi: 'हरा' },
     }
 };
 
@@ -274,7 +282,10 @@ function generateAllProducts(): Product[] {
         let threadCount = 0;
         let originalThreadCount: number | undefined = undefined;
         let patternStr = 'Plain';
-        let colorStr = 'White';
+        
+        // This regex is more robust for color parsing
+        const colorMatch = item.spec.match(/\b(White|Blue|Cream|Grey|Green)\b/i);
+        const colorStr = colorMatch ? colorMatch[0].charAt(0).toUpperCase() + colorMatch[0].slice(1).toLowerCase() : 'White';
 
         const tcMatch = item.spec.match(/(\d+)\s*Thread Count/i);
         if (tcMatch) {
@@ -290,13 +301,6 @@ function generateAllProducts(): Product[] {
         // Parse pattern
         if (item.spec.toLowerCase().includes('striped')) {
             patternStr = 'Striped';
-        }
-
-        // Parse color - simple logic, defaults to white
-        if (item.spec.toLowerCase().includes('blue')) {
-          colorStr = 'Blue';
-        } else if (item.spec.toLowerCase().includes('cream')) {
-          colorStr = 'Cream';
         }
 
         // Get mapped objects
@@ -317,11 +321,11 @@ function generateAllProducts(): Product[] {
         const product: Product = {
             id: item.code,
             name: {
-                en: isBathMat ? `Hotel Bath Mat - ${fabricType.en}` : `${productType.en} - ${fabricType.en} ${isTowel ? originalThreadCount+' lbs' : threadCount+'TC'} ${pattern.en}`,
-                th: isBathMat ? `พรมเช็ดเท้าโรงแรม - ${fabricType.th}` : `${productType.th} - ${fabricType.th} ${isTowel ? originalThreadCount+' ปอนด์' : threadCount+'TC'} ${pattern.th}`,
-                zh: isBathMat ? `酒店浴室地垫 - ${fabricType.zh}` : `${productType.zh} - ${fabricType.zh} ${isTowel ? originalThreadCount+' 磅' : threadCount+'TC'} ${pattern.zh}`,
-                ar: isBathMat ? `سجادة حمام فندقية - ${fabricType.ar}` : `${productType.ar} - ${fabricType.ar} ${isTowel ? originalThreadCount+' رطل' : threadCount+'TC'} ${pattern.ar}`,
-                hi: isBathMat ? `होटल बाथ मैट - ${fabricType.hi}` : `${productType.hi} - ${fabricType.hi} ${isTowel ? originalThreadCount+' पाउंड' : threadCount+'TC'} ${pattern.hi}`,
+                en: isBathMat ? `Hotel Bath Mat - ${fabricType.en}` : `${productType.en} - ${fabricType.en} ${isTowel ? originalThreadCount+' lbs' : threadCount+'TC'} ${pattern.en} (${color.en})`,
+                th: isBathMat ? `พรมเช็ดเท้าโรงแรม - ${fabricType.th}` : `${productType.th} - ${fabricType.th} ${isTowel ? originalThreadCount+' ปอนด์' : threadCount+'TC'} ${pattern.th} (${color.th})`,
+                zh: isBathMat ? `酒店浴室地垫 - ${fabricType.zh}` : `${productType.zh} - ${fabricType.zh} ${isTowel ? originalThreadCount+' 磅' : threadCount+'TC'} ${pattern.zh} (${color.zh})`,
+                ar: isBathMat ? `سجادة حمام فندقية - ${fabricType.ar}` : `${productType.ar} - ${fabricType.ar} ${isTowel ? originalThreadCount+' رطل' : threadCount+'TC'} ${pattern.ar} (${color.ar})`,
+                hi: isBathMat ? `होटल बाथ मैट - ${fabricType.hi}` : `${productType.hi} - ${fabricType.hi} ${isTowel ? originalThreadCount+' पाउंड' : threadCount+'TC'} ${pattern.hi} (${color.hi})`,
             },
             productType,
             size,
@@ -358,11 +362,11 @@ function generateAllProducts(): Product[] {
             const setProduct: Product = {
                 id: `SET-${fs.id}`,
                 name: {
-                    en: `Bedding Set: ${fs.fabricType.en} ${fs.threadCount}TC ${fs.pattern.en}`,
-                    th: `ชุดเครื่องนอน: ${fs.fabricType.th} ${fs.threadCount}TC ${fs.pattern.th}`,
-                    zh: `床上用品套装: ${fs.fabricType.zh} ${fs.threadCount}TC ${fs.pattern.zh}`,
-                    ar: `طقم مفروشات: ${fs.fabricType.ar} ${fs.threadCount}TC ${fs.pattern.ar}`,
-                    hi: `बिस्तर सेट: ${fs.fabricType.hi} ${fs.threadCount}TC ${fs.pattern.hi}`,
+                    en: `Bedding Set: ${fs.fabricType.en} ${fs.threadCount}TC ${fs.pattern.en} (${fs.color.en})`,
+                    th: `ชุดเครื่องนอน: ${fs.fabricType.th} ${fs.threadCount}TC ${fs.pattern.th} (${fs.color.th})`,
+                    zh: `床上用品套装: ${fs.fabricType.zh} ${fs.threadCount}TC ${fs.pattern.zh} (${fs.color.zh})`,
+                    ar: `طقم مفروشات: ${fs.fabricType.ar} ${fs.threadCount}TC ${fs.pattern.ar} (${fs.color.ar})`,
+                    hi: `बिस्तर सेट: ${fs.fabricType.hi} ${fs.threadCount}TC ${fs.pattern.hi} (${fs.color.hi})`,
                 },
                 productType: mappings.productType['Bedding Set'],
                 size: fs.size,

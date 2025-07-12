@@ -58,7 +58,7 @@ const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
     <div id={product.id} className="bg-brand-light rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col group text-start">
       {product.imageUrl && (
         <div className="p-0.5 bg-brand-gold">
-          <div className="relative w-full aspect-w-16 aspect-h-10 overflow-hidden rounded-t-xl">
+          <div className="relative w-full aspect-w-1 aspect-h-1 overflow-hidden rounded-t-xl">
             <img
               src={product.imageUrl}
               alt={altText}

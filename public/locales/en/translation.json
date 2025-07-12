@@ -491,15 +491,89 @@
     "premiumColors": "Premium Colors Collection",
     "beddingSets": "Complete Bedding Sets"
   },
+  "seo": {
+      "home": {
+          "title": "Slumba ZEN: Luxury Hotel Bedding & Towels | Made in Thailand",
+          "description": "Experience 5-star hotel luxury with Slumba ZEN. Shop premium Thai cotton sheets and towels, crafted for comfort. Worldwide delivery.",
+          "keywords": "hotel bedding, luxury bed sheets, Slumba ZEN, 100% cotton sheets, tencel lyocell sheets, factory direct bedding, breathable sheets, hypoallergenic bedding, B2B hotel supplier"
+      },
+      "collections": {
+          "title": "Shop Bedding by Category: White, Colors, Sets | Slumba ZEN",
+          "description": "Browse our hotel-quality bedding collections by category. Shop for timeless white sheets, vibrant premium colors, or convenient complete sets from Slumba ZEN at factory direct prices.",
+          "keywords": "bedding collections, shop bedding, white bed sheets, colored bedding, bedding sets, hotel quality linen, Slumba ZEN"
+      },
+      "materials": {
+          "title": "Bedding Material Guide | Cotton, Tencel™ & More | Slumba ZEN",
+          "description": "Hotel bedding material guide: learn about thread density for cotton, Tencel™, Soft-Tex™, CVC, with tips from Slumba ZEN, for a superior sleep.",
+          "keywords": "bedding materials, what is cotton, what is tencel, thread density, fabric guide, soft-tex, CVC, fiber quality, choosing hotel sheets, Slumba ZEN"
+      },
+      "hotels": {
+          "title": "B2B Hotel Bedding Slumba ZEN | Factory Prices, Export Quality",
+          "description": "Slumba ZEN, a manufacturer and supplier of B2B hotel bedding. High quality cotton, Tencel™, Soft-Tex™. Custom specs, logo embroidery, factory prices. Free consultation.",
+          "keywords": "B2B hotel bedding, Slumba ZEN, hotel bedding manufacturer, wholesale linen, custom bedding production, sheet logo embroidery, B2B factory price"
+      },
+      "gallery": {
+          "title": "Bedding Gallery | Hotel Sheet Ideas & Styles | Slumba ZEN",
+          "description": "Find inspiration in Slumba ZEN's bedding gallery. See hotel-quality sheets made from cotton, Tencel™, Soft-Tex™ in various colors and designs. Order at factory prices.",
+          "keywords": "bedding gallery, bedding ideas, bed sheet design, Slumba ZEN, cotton bedding, tencel bedding, beautiful colored sheets, hotel sheets"
+      },
+      "sizes": {
+          "title": "Standard Bedding Sizes: Twin, Queen, King & Custom | Slumbazen",
+          "description": "Size chart for sheets, duvet covers, and pillowcases for 3.5, 5, and 6 ft beds. Custom tailoring service for your mattress size from Slumbazen factory. Guaranteed fit for maximum comfort.",
+          "keywords": "bedding sizes, bedding size chart, 3.5 ft sheets, 5 ft sheets, 6 ft sheets, duvet cover sizes, pillowcase sizes, custom size bedding, Slumbazen"
+      },
+      "whatIsTencel": {
+          "title": "What is Tencel™ Lyocell Fabric? Benefits, Care & vs. Cotton",
+          "description": "In-depth guide to Tencel™ Lyocell: unique properties, softness, and eco-friendliness. Compare it to cotton and learn Tencel™ care tips from Slumbazen experts for long-lasting use.",
+          "keywords": "what is tencel, tencel fabric, lyocell, tencel properties, tencel benefits, tencel vs cotton, tencel care instructions, tencel sheets, Slumbazen"
+      },
+      "deliveryWarranty": {
+          "title": "Shipping and Warranty Policy for Slumbazen Bedding",
+          "description": "Details about Slumbazen's bedding shipping policy (Thailand and international), product warranty, return conditions, and high-quality fabric care instructions for your satisfaction.",
+          "keywords": "shipping policy, product warranty, returns, bedding care, Slumba ZEN, free delivery, international shipping cost, delivery information"
+      },
+      "contact": {
+          "title": "Contact Slumbazen - Order Hotel Bedding & Get a Quote",
+          "description": "Contact Slumbazen factory for inquiries, ordering B2B hotel bedding, export quality, or visiting our showroom. Call 081-851-9922, LINE: kris.bkk. We are ready to serve.",
+          "keywords": "contact Slumbazen, phone number, LINE ID, factory map, order bed sheets, B2B price inquiry, contact us, bedding manufacturer thailand"
+      },
+      "whiteSheets": {
+        "title": "White Hotel Bed Sheets | Premium Cotton, Tencel™ Quality",
+        "description": "Shop exclusive white bed sheets from Slumba ZEN. Hotel quality cotton and Tencel™ fabrics. Clean, comfortable, and timelessly elegant. Factory prices.",
+        "keywords": "white bed sheets, white hotel bedding, white cotton sheets, white tencel sheets, Slumba ZEN, luxury white sheets, hotel white collection"
+    },
+    "premiumColors": {
+        "title": "Premium Color Sheets - Stylish Designs, Hotel Quality | Slumbazen",
+        "description": "Style your bedroom with premium color bed sheets from Slumba ZEN. Various shades in high-quality cotton, Tencel™ fabrics. Custom orders at factory prices.",
+        "keywords": "color bed sheets, premium color bedding, designer linen, Slumba ZEN color sheets, solid color sheets, luxury color bedding"
+    },
+    "beddingSets": {
+        "title": "Complete Bedding Sets - Hotel Quality, Factory Prices | Slumbazen",
+        "description": "Choose a complete hotel-quality bedding set from Slumba ZEN. Includes fitted sheet, pillowcases, and duvet cover, perfectly coordinated for superior comfort and style. Direct from factory.",
+        "keywords": "bedding sets, complete linen, hotel bedding package, Slumba ZEN bedding set, bed in a bag, luxury bedding combo"
+    },
+    "towels": {
+        "title": "Hotel Towel Guide: Choose Size, Weight & Washing Method | Slumbazen",
+        "description": "In-depth guide to 100% cotton hotel towels and bath mats. How to choose the right weight (lbs) and size for 3-5 star hotels, with first wash instructions from Slumbazen.",
+        "keywords": "hotel towel, bath towel, bath mat, towel size, towel weight, how to wash towels, 12 lbs towel, 16 lbs towel, combed cotton, Slumbazen"
+    }
+  },
   "towelsPage": {
     "mainTitle": "Hotel Towel & Bath Mat Guide",
     "mainDescription": "Understand the difference in towel quality to choose the perfect option for your hotel, Airbnb, or home. Learn why weight (lbs) matters and how to care for them for long-lasting softness.",
     "productsListTitle": "Our Towel Products",
     "suitability": "Best for",
+    "techTipTitle": "Tech Tip",
+    "variantsTitle": "Variants & Specifications",
+    "variantsTable": {
+      "headerName": "Variant Name",
+      "headerSpec": "Specification",
+      "headerSuitability": "Best For"
+    },
     "bathTowel": {
       "name": "Hotel Bath Towel (100% Combed Cotton)",
       "description": "Crafted from pure 100% combed cotton with a double loop terry weave for superior absorbency, softness, and durability. Designed to withstand the rigors of commercial laundering while providing guests with a luxurious experience.",
-      "techTip": "Tech Tip: Combing the cotton removes shorter fibers, resulting in a stronger, smoother yarn that feels softer and is less prone to linting.",
+      "techTip": "Combing the cotton removes shorter fibers, resulting in a stronger, smoother yarn that feels softer and is less prone to linting.",
       "variant1_name": "Standard Weight",
       "variant1_spec": "12 lbs / dozen (Size: 27\"x54\")",
       "variant1_suitability": "3-Star Hotels, Gyms, Spas",
@@ -516,7 +590,7 @@
     "bathMat": {
       "name": "Hotel Bath Mat (100% Cotton)",
       "description": "Woven with a distinct, decorative border and a dense, heavy pile to ensure maximum water absorption and a secure, plush feel underfoot. An essential item for guest safety and comfort.",
-      "techTip": "Tech Tip: The distinct weave pattern on hotel bath mats not only adds style but also helps differentiate them from bath towels during laundry sorting.",
+      "techTip": "The distinct weave pattern on hotel bath mats not only adds style but also helps differentiate them from bath towels during laundry sorting.",
       "variant1_name": "Heavy Duty Absorbency",
       "variant1_spec": "8-12 lbs / dozen (Size: 20\"x30\")",
       "variant1_suitability": "All Hotels & Hospitality"
@@ -531,27 +605,27 @@
       "step1_practice_item2": "If you have colored towels, wash dark colors separately from light colors for the first few washes.",
       "step1_practice_item3": "Our towels use high-quality reactive dyes for excellent colorfastness, but this step is a best practice for all new textiles.",
       "step2_title": "2. Use a Normal to High Water Level",
-      "step2_item1": "<strong>Reason:</strong> To give the towels plenty of room to move, which allows for thorough rinsing and helps flush out lint.",
-      "step2_item2": "<strong>Practice:</strong> Do not overload the washing machine. Wash towels in manageable batches.",
+      "step2_reason": "<strong>Reason:</strong> To give the towels plenty of room to move, which allows for thorough rinsing and helps flush out lint.",
+      "step2_practice_item1": "<strong>Practice:</strong> Do not overload the washing machine. Wash towels in manageable batches.",
       "step3_title": "3. Wash with Warm Water (40-60°C)",
-      "step3_item1": "<strong>Reason:</strong> Warm water is highly effective at opening up the cotton fibers, which helps to wash away any finishing coatings and residual lint from the manufacturing process.",
-      "step3_item2": "<strong>Practice:</strong> Select a warm wash cycle on your machine. Avoid excessively hot water on the first wash as it can be harsh on new fibers.",
+      "step3_reason": "<strong>Reason:</strong> Warm water is highly effective at opening up the cotton fibers, which helps to wash away any finishing coatings and residual lint from the manufacturing process.",
+      "step3_practice_item1": "<strong>Practice:</strong> Select a warm wash cycle on your machine. Avoid excessively hot water on the first wash as it can be harsh on new fibers.",
       "step4_title": "4. Use a Mild Detergent",
-      "step4_item1": "<strong>Reason:</strong> Harsh detergents can damage the cotton fibers. A mild detergent is sufficient to clean the new towels.",
-      "step4_item2": "<strong>Practice:</strong> Use about half the recommended amount of a gentle, liquid detergent.",
+      "step4_reason": "<strong>Reason:</strong> Harsh detergents can damage the cotton fibers. A mild detergent is sufficient to clean the new towels.",
+      "step4_practice_item1": "<strong>Practice:</strong> Use about half the recommended amount of a gentle, liquid detergent.",
       "step5_title": "5. Add Distilled White Vinegar (Optional but Recommended)",
-      "step5_item1": "<strong>Reason:</strong> Vinegar helps to dissolve detergent residue and break down any waxy finishes on the towels, which significantly boosts their absorbency. It also acts as a natural fabric softener.",
-      "step5_item2": "<strong>Practice:</strong> Add one cup (approx. 240 ml) of distilled white vinegar to the rinse cycle.",
+      "step5_reason": "<strong>Reason:</strong> Vinegar helps to dissolve detergent residue and break down any waxy finishes on the towels, which significantly boosts their absorbency. It also acts as a natural fabric softener.",
+      "step5_practice_item1": "<strong>Practice:</strong> Add one cup (approx. 240 ml) of distilled white vinegar to the rinse cycle.",
       "step6_title": "6. Avoid Fabric Softener",
-      "step6_item1": "<strong>Reason:</strong> Commercial fabric softeners coat the fibers with a waxy, water-repellent film that drastically reduces a towel's absorbency. This is the #1 enemy of a thirsty towel.",
+      "step6_reason": "<strong>Reason:</strong> Commercial fabric softeners coat the fibers with a waxy, water-repellent film that drastically reduces a towel's absorbency. This is the #1 enemy of a thirsty towel.",
       "step7_title": "7. Double Rinse If Possible",
-      "step7_item1": "<strong>Reason:</strong> An extra rinse cycle ensures all detergent and loose lint are completely washed away.",
+      "step7_reason": "<strong>Reason:</strong> An extra rinse cycle ensures all detergent and loose lint are completely washed away.",
       "step8_title": "8. Shake Towels Before Drying",
-      "step8_item1": "<strong>Reason:</strong> Vigorously shaking out each towel helps to fluff up the terry loops, which aids in drying and improves softness.",
+      "step8_reason": "<strong>Reason:</strong> Vigorously shaking out each towel helps to fluff up the terry loops, which aids in drying and improves softness.",
       "step9_title": "9. Tumble Dry on Medium Heat",
-      "step9_item1": "<strong>Reason:</strong> Over-drying or using excessively high heat can damage the cotton fibers, making them brittle and less soft over time. Medium heat is sufficient to dry them while keeping them plush.",
+      "step9_reason": "<strong>Reason:</strong> Over-drying or using excessively high heat can damage the cotton fibers, making them brittle and less soft over time. Medium heat is sufficient to dry them while keeping them plush.",
       "step10_title": "10. Clean the Lint Filter",
-      "step10_item1": "<strong>Reason:</strong> New towels will release a significant amount of lint during the first few washes. Clean your dryer's lint filter mid-cycle and after drying to ensure good airflow and prevent fire hazards."
+      "step10_reason": "<strong>Reason:</strong> New towels will release a significant amount of lint during the first few washes. Clean your dryer's lint filter mid-cycle and after drying to ensure good airflow and prevent fire hazards."
     },
     "careInstructions": {
       "title": "Long-Term Care for Maximum Towel Life",
